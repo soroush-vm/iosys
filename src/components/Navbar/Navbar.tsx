@@ -7,7 +7,7 @@ const navItems = [
   { label: "WiFi", to: "/wifi" },
   { label: "Zigbee", to: "/zigbee" },
   { label: "Home Assistant", to: "/home-assistant" },
-  { label: "ETS", to: "/ets" },
+  { label: "Bms", to: "/bms" },
   { label: "Python", to: "/python" },
 ];
 

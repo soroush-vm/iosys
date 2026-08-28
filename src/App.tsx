@@ -5,7 +5,7 @@ import Knx from "@/pages/Knx";
 import Wifi from "@/pages/Wifi";
 import Zigbee from "@/pages/Zigbee";
 import HomeAssistant from "@/pages/HomeAssistant";
-import Ets from "@/pages/Ets";
+import Bms from "@/pages/Bms";
 import PythonPage from "@/pages/PythonPage";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
           <Route path="/wifi" element={<Wifi />} />
           <Route path="/zigbee" element={<Zigbee />} />
           <Route path="/home-assistant" element={<HomeAssistant />} />
-          <Route path="/ets" element={<Ets />} />
+          <Route path="/bms" element={<Bms />} />
           <Route path="/python" element={<PythonPage />} />
         </Routes>
       </main>
