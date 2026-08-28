@@ -3,12 +3,10 @@ import logo from "@/assets/images/logo2.png";
 
 const navItems = [
   { label: "Home", to: "/" },
-  { label: "KNX", to: "/knx" },
-  { label: "WiFi", to: "/wifi" },
-  { label: "Zigbee", to: "/zigbee" },
-  { label: "Home Assistant", to: "/home-assistant" },
-  { label: "Bms", to: "/bms" },
-  { label: "Python", to: "/python" },
+  { label: "IOT", to: "/iot" },
+  { label: "AccessControl&CCTV", to: "/accesscontrol-cctv" },
+  { label: "Power&Electronics", to: "/power-electronics" },
+  { label: "BMS", to: "/bms" },
 ];
 
 const Navbar = () => {
