@@ -5,6 +5,7 @@ import Iot from "@/pages/Iot";
 import AccessControlCCTV from "@/pages/AccessControlCCTV";
 import PowerElectronics from "@/pages/PowerElectronics";
 import Bms from "@/pages/Bms";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/bms" element={<Bms />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }
