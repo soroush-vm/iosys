@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#FAFCFC]"
+      className="relative flex min-h-full items-center justify-center overflow-hidden bg-[#FAFCFC]"
     >
 
       {/* Background Glow */}

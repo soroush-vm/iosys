@@ -9,9 +9,9 @@ import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
-    <>
+    <div className="flex h-dvh flex-col overflow-hidden">
       <Navbar />
-      <main className="pt-20">
+      <main className="min-h-0 flex-1 overflow-y-auto scroll-smooth">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/iot" element={<Iot />} />
@@ -21,6 +21,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
